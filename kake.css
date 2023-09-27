@@ -1,0 +1,81 @@
+
+
+
+
+html, body {
+    height: 100%; 
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #477A1E
+    }
+
+    30% {
+        background-color: #70B237
+    }
+
+    60% {
+        background-color: #8FCA5C
+    }
+
+    90% {
+        background-color: #61371F
+    }
+
+    100% {
+        background-color: #854F2B
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+img:hover{ 
+width: 21%;
+}
+
+html, body, button {
+color: #0e280ce9;
+background-color: #8fca5c00;
+border: #477a1e00;
+
+font-family: 'Libre Barcode 39 Extended', cursive;
+font-family: 'Roboto', sans-serif;
+color: #073303;
+}
+
+h1 {
+    font-family: 'Libre Barcode 39 Extended', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #073303;
+}
+
+body {
+    background: rgba(170, 170, 170, 0);
+  }
+  #container {
+    font: normal 10px sans-serif;
+    padding: 16px;
+  }
+  #counter {
+    transition: opacity 0.5s;
+    color: #00000071;
+    opacity: 0;
+  }
+  #counter::before {
+    content: '';
+
+  }

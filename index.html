@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<script type = "text/javascript">
+	var msg =
+	  " 	⛏🧱 Dirt To Dirty";
+	var chars = Array.from(msg);
+  
+	function scrollTitle() {
+	  chars.push(chars.shift());
+	  document.title = chars.join("");
+	  window.setTimeout(scrollTitle, 120);
+	}
+  
+	(function() {
+	  scrollTitle();
+	})();
+  </script>
+<body>
+</body>
+<html>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Libre+Barcode+39+Extended&family=Roboto:ital,wght@1,100&family=Rubik+Beastly&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="kake.css">
+    
+    <script src="kake.js" defer></script>
+    <style></style>
+</head>
+
+<body>
+	<div>
+
+	</div>
+    <h1>Dirt To Dirty</h1>
+    
+    <img id="dirt" src="dirt.png" alt="Italian Trulli" >
+    <div id="container">
+		<div id="dirt"></div>
+		 <span id="counter" >0</span>
+	  </div>
+	<p>
+       <span id="poeng">0</span>
+
+    </p>
+    <button id ="knapp"class="knapp">
+        RESTART
+    </button>
+        
+</body>
+</html>
+  <source id="dirt" src="DIRT.mp3" type="audio/mpeg">
